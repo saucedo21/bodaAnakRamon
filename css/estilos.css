@@ -321,5 +321,10 @@ body{
         font-size: 12px;
     }
 
-
+    .imagen-about-us{
+        margin: auto;
+        width: 1000px;
+        height: auto;
+    }
+    
 }
