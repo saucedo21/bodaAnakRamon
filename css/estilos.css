@@ -17,7 +17,7 @@ body{
 
 
 .titulo{
-    color:   rgb(99, 131, 121);
+    color:   rgb(90, 116, 112);
     font-size: 40px;
     text-align: center;
     margin-bottom: 30px;
@@ -26,51 +26,73 @@ body{
 
 
 .titulo2{
-    color:  rgb(99, 131, 121);
+    color:  rgb(207, 145, 104);
     font-size: 40px;
     text-align: center;
-    margin-bottom: 60px;
+    padding-top: 60px;
+    margin-bottom: 0px;
 }
 
 .titulo3{
-    color:   rgb(99, 131, 121);
+    color:   rgb(207, 145, 104);
     font-size: 40px;
     text-align: center;
     margin-bottom: 60px;
 }
 
 .titulo4{
-    color:  rgb(99, 131, 121);
-    font-size: 40px;
+    color:  rgb(207, 145, 104);
+    font-size: 30px;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
-.direccion{
+.direccion-1-1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 35px;
+    margin-top: 30px;
+    color:  rgb(99, 131, 121);
+}
+
+.direccion-1-2{
     font-family: 'Quicksand', sans-serif;
     font-size: 25px;
     margin-top: 30px;
     color:  rgb(99, 131, 121);
 }
 
-.direccion2{
+.direccion-2-1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 35px;
+    margin-top: 30px;
+    color: rgb(99, 131, 121);
+}
+
+.direccion-2-2{
     font-family: 'Quicksand', sans-serif;
     font-size: 25px;
     margin-top: 30px;
     color: rgb(99, 131, 121);
 }
 
+.description{
+    background-color: rgba(243, 234, 227, 0.521);
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #517c75b7, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
 
 .Ceremonia-Religiosa{
     font-size: 50px;
     text-align: center;
     margin-bottom: 0px;  
     margin: 0;
+    margin-top: 0px;
     border-image-width: 400px; 
     background-color: rgba(243, 234, 227, 0.521);
     background: #ECE9E6;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #9fc3c5, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #517c75b7, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .imagen-religiosa{
@@ -124,7 +146,7 @@ body{
 .Ceremonia-Civil{
     font-size: 40px;
     text-align: center;
-    margin-bottom: 70px;  
+    margin-bottom: 0px;  
     background-color: rgba(243, 234, 227, 0.521);
     background: #ECE9E6;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
@@ -134,28 +156,28 @@ body{
     background-color: rgba(243, 234, 227, 0.521);
     background: #ECE9E6;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #9fc3c5, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #517c75b7, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .Codigo-de-vestimenta{
     font-size: 40px;
     text-align: center;
-    margin-bottom: 70px;  
-    background-color: rgba(243, 234, 227, 0.521);
+    margin-bottom: 0px;  
+    background-color: rgba(182, 150, 129, 0.521);
     background: #ECE9E6;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #f1e0c8e5, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-color: rgba(243, 234, 227, 0.521);
 }
 
 .Itinerario{
     font-size: 40px;
     text-align: center;
-    margin-bottom: 60px; 
+    margin-bottom: 0px; 
     background-color: rgba(243, 234, 227, 0.521);
     background: #ECE9E6;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #f1e0c8e5, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .imagen-about-us{
@@ -177,18 +199,28 @@ body{
     height: auto;*/
 }
 
-.banco{
+.asistencia-banco{
     font-size: 17px;
     font-family: 'Aboreto', cursive;
     text-align: center;
-    color:  rgb(99, 131, 121);
+    color:  rgb(207, 145, 104);
     border-image-width: 400px; 
     padding-bottom: 70px; 
     padding-top: 50px; 
     background-color: rgba(243, 234, 227, 0.521);
     background: #ECE9E6;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #9fc3c5, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #e6d1b5e5, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.datos-ramon{
+    padding-bottom: 40px; 
+    padding-top: 10px; 
+}
+
+.datos-anakaren{
+    padding-bottom: 40px; 
+    padding-top: 0px; 
 }
 
 .button{
@@ -206,7 +238,7 @@ body{
     padding-left:40px;
     padding-right:40px;
     border-color: #ffffff;
-    border-width: 3px;
+    border-width: 1px;
     border-style: solid;
     border-radius:35px;
 }
@@ -227,12 +259,32 @@ body{
     padding-left:40px;
     padding-right:40px;
     border-color: #ffffff;
-    border-width: 3px;
+    border-width: 1px;
     border-style: solid;
     border-radius:35px;
 }
 
+.button3{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(207, 145, 104);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border:none;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:40px;
+    padding-right:40px;
+    border-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-radius:35px;
+}
 
+/*
 @media (max-width: 767px){
     .titulo{
         color:   rgb(99, 131, 121);
@@ -322,3 +374,4 @@ body{
     }
     
 }
+*/
