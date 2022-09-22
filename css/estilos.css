@@ -424,4 +424,30 @@ body{
         font-size: 12px;
     }
     
+
+    .imagen-itinerario{
+        margin: auto;
+        padding-left: 0%;
+        padding-right: 0%;
+        max-width: 100%;
+        display: block;
+    }
+
+    .imagen-vestimenta{
+        margin: auto;
+        padding-left: 0%;
+        padding-right: 0%;
+        max-width: 100%;
+        display: block;
+    }
+    
+    .imagen-texto-familia{
+        margin: auto;
+        padding-left: 0%;
+        padding-right: 0%;
+        max-width: 100%;
+        display: block;
+    }
+
+
 }
