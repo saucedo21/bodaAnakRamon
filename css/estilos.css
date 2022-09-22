@@ -24,6 +24,13 @@ body{
     padding-top: 45px;
 }
 
+.titulo1-2{
+    color:   rgb(90, 116, 112);
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 100px;
+}
 
 .titulo2{
     color:  rgb(207, 145, 104);
