@@ -86,7 +86,7 @@ body{
     background-color: rgba(243, 234, 227, 0.521);
     background: #ECE9E6;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #517c75b7, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    background: linear-gradient(to right, #8a7da1b7, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
 }
 
 .Ceremonia-Religiosa{
@@ -291,6 +291,11 @@ body{
     border-radius:35px;
 }
 
+@media (min-width: 768px){
+    .movil{
+        display: none;
+    }
+}
 
 @media (max-width: 767px){
     .titulo{
@@ -449,5 +454,7 @@ body{
         display: block;
     }
 
-
+    .desktop{
+        display: none;
+    }
 }
